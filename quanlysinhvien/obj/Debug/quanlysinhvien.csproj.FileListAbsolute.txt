@@ -1,0 +1,14 @@
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSV.mdf
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSV_log.ldf
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\bin\Debug\quanlysinhvien.exe.config
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\bin\Debug\quanlysinhvien.exe
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\bin\Debug\quanlysinhvien.pdb
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.FormLogin.resources
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.Properties.Resources.resources
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.exe
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.pdb
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.exe.config
+C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.FormMain.resources
