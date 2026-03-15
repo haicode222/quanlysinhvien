@@ -29,53 +29,63 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.Label maSVLabel;
-            System.Windows.Forms.Label hoTenLabel;
-            System.Windows.Forms.Label lopLabel;
+            this.maSVLabel = new System.Windows.Forms.Label();
+            this.hoTenLabel = new System.Windows.Forms.Label();
+            this.lopLabel = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.btn_save = new System.Windows.Forms.Button();
+            this.btn_del = new System.Windows.Forms.Button();
+            this.btn_edit = new System.Windows.Forms.Button();
+            this.btn_create = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dbQLSVDataSet = new quanlysinhvien.DbQLSVDataSet();
-            this.sinhVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sinhVienTableAdapter = new quanlysinhvien.DbQLSVDataSetTableAdapters.SinhVienTableAdapter();
-            this.tableAdapterManager = new quanlysinhvien.DbQLSVDataSetTableAdapters.TableAdapterManager();
-            this.sinhVienBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
-            this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.sinhVienBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.maSVTextBox = new System.Windows.Forms.TextBox();
+            this.sinhVienBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dbQLSVDataSet = new quanlysinhvien.DbQLSVDataSet();
             this.hoTenTextBox = new System.Windows.Forms.TextBox();
             this.lopTextBox = new System.Windows.Forms.TextBox();
             this.sinhVienDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            maSVLabel = new System.Windows.Forms.Label();
-            hoTenLabel = new System.Windows.Forms.Label();
-            lopLabel = new System.Windows.Forms.Label();
+            this.sinhVienTableAdapter = new quanlysinhvien.DbQLSVDataSetTableAdapters.SinhVienTableAdapter();
+            this.tableAdapterManager = new quanlysinhvien.DbQLSVDataSetTableAdapters.TableAdapterManager();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dbQLSVDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingNavigator)).BeginInit();
-            this.sinhVienBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dbQLSVDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienDataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // maSVLabel
+            // 
+            this.maSVLabel.AutoSize = true;
+            this.maSVLabel.Location = new System.Drawing.Point(69, 39);
+            this.maSVLabel.Name = "maSVLabel";
+            this.maSVLabel.Size = new System.Drawing.Size(42, 13);
+            this.maSVLabel.TabIndex = 0;
+            this.maSVLabel.Text = "Ma SV:";
+            this.maSVLabel.Click += new System.EventHandler(this.maSVLabel_Click);
+            // 
+            // hoTenLabel
+            // 
+            this.hoTenLabel.AutoSize = true;
+            this.hoTenLabel.Location = new System.Drawing.Point(69, 65);
+            this.hoTenLabel.Name = "hoTenLabel";
+            this.hoTenLabel.Size = new System.Drawing.Size(46, 13);
+            this.hoTenLabel.TabIndex = 2;
+            this.hoTenLabel.Text = "Ho Ten:";
+            // 
+            // lopLabel
+            // 
+            this.lopLabel.AutoSize = true;
+            this.lopLabel.Location = new System.Drawing.Point(69, 91);
+            this.lopLabel.Name = "lopLabel";
+            this.lopLabel.Size = new System.Drawing.Size(28, 13);
+            this.lopLabel.TabIndex = 4;
+            this.lopLabel.Text = "Lop:";
             // 
             // splitContainer1
             // 
@@ -85,9 +95,10 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.button3);
-            this.splitContainer1.Panel1.Controls.Add(this.button2);
-            this.splitContainer1.Panel1.Controls.Add(this.button1);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_save);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_del);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_edit);
+            this.splitContainer1.Panel1.Controls.Add(this.btn_create);
             this.splitContainer1.Panel1.Controls.Add(this.groupBox1);
             // 
             // splitContainer1.Panel2
@@ -98,13 +109,53 @@
             this.splitContainer1.SplitterDistance = 387;
             this.splitContainer1.TabIndex = 0;
             // 
+            // btn_save
+            // 
+            this.btn_save.Location = new System.Drawing.Point(201, 286);
+            this.btn_save.Name = "btn_save";
+            this.btn_save.Size = new System.Drawing.Size(89, 42);
+            this.btn_save.TabIndex = 1;
+            this.btn_save.Text = "Luu";
+            this.btn_save.UseVisualStyleBackColor = true;
+            this.btn_save.Click += new System.EventHandler(this.btn_save_Click);
+            // 
+            // btn_del
+            // 
+            this.btn_del.Location = new System.Drawing.Point(77, 286);
+            this.btn_del.Name = "btn_del";
+            this.btn_del.Size = new System.Drawing.Size(89, 42);
+            this.btn_del.TabIndex = 1;
+            this.btn_del.Text = "Xoa";
+            this.btn_del.UseVisualStyleBackColor = true;
+            this.btn_del.Click += new System.EventHandler(this.btn_del_Click);
+            // 
+            // btn_edit
+            // 
+            this.btn_edit.Location = new System.Drawing.Point(201, 238);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.Size = new System.Drawing.Size(89, 42);
+            this.btn_edit.TabIndex = 1;
+            this.btn_edit.Text = "Sua";
+            this.btn_edit.UseVisualStyleBackColor = true;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
+            // 
+            // btn_create
+            // 
+            this.btn_create.Location = new System.Drawing.Point(77, 238);
+            this.btn_create.Name = "btn_create";
+            this.btn_create.Size = new System.Drawing.Size(89, 42);
+            this.btn_create.TabIndex = 1;
+            this.btn_create.Text = "Them";
+            this.btn_create.UseVisualStyleBackColor = true;
+            this.btn_create.Click += new System.EventHandler(this.btn_create_Click);
+            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(maSVLabel);
+            this.groupBox1.Controls.Add(this.maSVLabel);
             this.groupBox1.Controls.Add(this.maSVTextBox);
-            this.groupBox1.Controls.Add(hoTenLabel);
+            this.groupBox1.Controls.Add(this.hoTenLabel);
             this.groupBox1.Controls.Add(this.hoTenTextBox);
-            this.groupBox1.Controls.Add(lopLabel);
+            this.groupBox1.Controls.Add(this.lopLabel);
             this.groupBox1.Controls.Add(this.lopTextBox);
             this.groupBox1.Location = new System.Drawing.Point(55, 34);
             this.groupBox1.Name = "groupBox1";
@@ -112,161 +163,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
-            // 
-            // dbQLSVDataSet
-            // 
-            this.dbQLSVDataSet.DataSetName = "DbQLSVDataSet";
-            this.dbQLSVDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // sinhVienBindingSource
-            // 
-            this.sinhVienBindingSource.DataMember = "SinhVien";
-            this.sinhVienBindingSource.DataSource = this.dbQLSVDataSet;
-            // 
-            // sinhVienTableAdapter
-            // 
-            this.sinhVienTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.SinhVienTableAdapter = this.sinhVienTableAdapter;
-            this.tableAdapterManager.UpdateOrder = quanlysinhvien.DbQLSVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.UsersTableAdapter = null;
-            // 
-            // sinhVienBindingNavigator
-            // 
-            this.sinhVienBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.sinhVienBindingNavigator.BindingSource = this.sinhVienBindingSource;
-            this.sinhVienBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.sinhVienBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.sinhVienBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bindingNavigatorMoveFirstItem,
-            this.bindingNavigatorMovePreviousItem,
-            this.bindingNavigatorSeparator,
-            this.bindingNavigatorPositionItem,
-            this.bindingNavigatorCountItem,
-            this.bindingNavigatorSeparator1,
-            this.bindingNavigatorMoveNextItem,
-            this.bindingNavigatorMoveLastItem,
-            this.bindingNavigatorSeparator2,
-            this.bindingNavigatorAddNewItem,
-            this.bindingNavigatorDeleteItem,
-            this.sinhVienBindingNavigatorSaveItem});
-            this.sinhVienBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.sinhVienBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.sinhVienBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.sinhVienBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.sinhVienBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.sinhVienBindingNavigator.Name = "sinhVienBindingNavigator";
-            this.sinhVienBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.sinhVienBindingNavigator.Size = new System.Drawing.Size(800, 25);
-            this.sinhVienBindingNavigator.TabIndex = 1;
-            this.sinhVienBindingNavigator.Text = "bindingNavigator1";
-            // 
-            // bindingNavigatorMoveFirstItem
-            // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Move first";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Move previous";
-            // 
-            // bindingNavigatorSeparator
-            // 
-            this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorPositionItem
-            // 
-            this.bindingNavigatorPositionItem.AccessibleName = "Position";
-            this.bindingNavigatorPositionItem.AutoSize = false;
-            this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
-            this.bindingNavigatorPositionItem.Text = "0";
-            this.bindingNavigatorPositionItem.ToolTipText = "Current position";
-            // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(35, 15);
-            this.bindingNavigatorCountItem.Text = "of {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Total number of items";
-            // 
-            // bindingNavigatorSeparator1
-            // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 6);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorMoveNextItem.Text = "Move next";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorMoveLastItem.Text = "Move last";
-            // 
-            // bindingNavigatorSeparator2
-            // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 6);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Add new";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorDeleteItem.Text = "Delete";
-            // 
-            // sinhVienBindingNavigatorSaveItem
-            // 
-            this.sinhVienBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.sinhVienBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("sinhVienBindingNavigatorSaveItem.Image")));
-            this.sinhVienBindingNavigatorSaveItem.Name = "sinhVienBindingNavigatorSaveItem";
-            this.sinhVienBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
-            this.sinhVienBindingNavigatorSaveItem.Text = "Save Data";
-            this.sinhVienBindingNavigatorSaveItem.Click += new System.EventHandler(this.sinhVienBindingNavigatorSaveItem_Click_1);
-            // 
-            // maSVLabel
-            // 
-            maSVLabel.AutoSize = true;
-            maSVLabel.Location = new System.Drawing.Point(69, 39);
-            maSVLabel.Name = "maSVLabel";
-            maSVLabel.Size = new System.Drawing.Size(42, 13);
-            maSVLabel.TabIndex = 0;
-            maSVLabel.Text = "Ma SV:";
-            maSVLabel.Click += new System.EventHandler(this.maSVLabel_Click);
             // 
             // maSVTextBox
             // 
@@ -276,14 +172,15 @@
             this.maSVTextBox.Size = new System.Drawing.Size(157, 20);
             this.maSVTextBox.TabIndex = 1;
             // 
-            // hoTenLabel
+            // sinhVienBindingSource
             // 
-            hoTenLabel.AutoSize = true;
-            hoTenLabel.Location = new System.Drawing.Point(69, 65);
-            hoTenLabel.Name = "hoTenLabel";
-            hoTenLabel.Size = new System.Drawing.Size(46, 13);
-            hoTenLabel.TabIndex = 2;
-            hoTenLabel.Text = "Ho Ten:";
+            this.sinhVienBindingSource.DataMember = "SinhVien";
+            this.sinhVienBindingSource.DataSource = this.dbQLSVDataSet;
+            // 
+            // dbQLSVDataSet
+            // 
+            this.dbQLSVDataSet.DataSetName = "DbQLSVDataSet";
+            this.dbQLSVDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // hoTenTextBox
             // 
@@ -292,15 +189,6 @@
             this.hoTenTextBox.Name = "hoTenTextBox";
             this.hoTenTextBox.Size = new System.Drawing.Size(157, 20);
             this.hoTenTextBox.TabIndex = 3;
-            // 
-            // lopLabel
-            // 
-            lopLabel.AutoSize = true;
-            lopLabel.Location = new System.Drawing.Point(69, 91);
-            lopLabel.Name = "lopLabel";
-            lopLabel.Size = new System.Drawing.Size(28, 13);
-            lopLabel.TabIndex = 4;
-            lopLabel.Text = "Lop:";
             // 
             // lopTextBox
             // 
@@ -343,39 +231,22 @@
             this.dataGridViewTextBoxColumn3.HeaderText = "Lop";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
-            // button1
+            // sinhVienTableAdapter
             // 
-            this.button1.Location = new System.Drawing.Point(71, 284);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.sinhVienTableAdapter.ClearBeforeFill = true;
             // 
-            // button2
+            // tableAdapterManager
             // 
-            this.button2.Location = new System.Drawing.Point(164, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button1";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(258, 284);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "button1";
-            this.button3.UseVisualStyleBackColor = true;
+            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager.SinhVienTableAdapter = this.sinhVienTableAdapter;
+            this.tableAdapterManager.UpdateOrder = quanlysinhvien.DbQLSVDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            this.tableAdapterManager.UsersTableAdapter = null;
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.sinhVienBindingNavigator);
             this.Controls.Add(this.splitContainer1);
             this.Name = "FormMain";
             this.Text = "FormMain";
@@ -386,14 +257,10 @@
             this.splitContainer1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dbQLSVDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sinhVienBindingNavigator)).EndInit();
-            this.sinhVienBindingNavigator.ResumeLayout(false);
-            this.sinhVienBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dbQLSVDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.sinhVienDataGridView)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -405,19 +272,6 @@
         private System.Windows.Forms.BindingSource sinhVienBindingSource;
         private DbQLSVDataSetTableAdapters.SinhVienTableAdapter sinhVienTableAdapter;
         private DbQLSVDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.BindingNavigator sinhVienBindingNavigator;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
-        private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator;
-        private System.Windows.Forms.ToolStripTextBox bindingNavigatorPositionItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator1;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
-        private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
-        private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton sinhVienBindingNavigatorSaveItem;
         private System.Windows.Forms.TextBox maSVTextBox;
         private System.Windows.Forms.TextBox hoTenTextBox;
         private System.Windows.Forms.TextBox lopTextBox;
@@ -425,8 +279,12 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_create;
+        private System.Windows.Forms.Button btn_save;
+        private System.Windows.Forms.Button btn_del;
+        private System.Windows.Forms.Button btn_edit;
+        private System.Windows.Forms.Label maSVLabel;
+        private System.Windows.Forms.Label hoTenLabel;
+        private System.Windows.Forms.Label lopLabel;
     }
 }
