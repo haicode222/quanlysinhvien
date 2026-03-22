@@ -12,3 +12,8 @@ C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvi
 C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.pdb
 C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.exe.config
 C:\Users\admin\source\repos\quanlysinhvien\quanlysinhvien\obj\Debug\quanlysinhvien.FormMain.resources
+C:\Users\admin\Source\Repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSVDataSet.cs
+C:\Users\admin\Source\Repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSVDataSet.Designer.cs
+C:\Users\admin\Source\Repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSVDataSet.xsc
+C:\Users\admin\Source\Repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSVDataSet.xsd
+C:\Users\admin\Source\Repos\quanlysinhvien\quanlysinhvien\bin\Debug\DbQLSVDataSet.xss

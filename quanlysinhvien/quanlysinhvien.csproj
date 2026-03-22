@@ -65,11 +65,13 @@
   <ItemGroup>
     <Compile Include="DbQLSVDataSet.cs">
       <DependentUpon>DbQLSVDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="DbQLSVDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DbQLSVDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
@@ -102,14 +104,17 @@
     </Compile>
     <None Include="DbQLSVDataSet.xsc">
       <DependentUpon>DbQLSVDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="DbQLSVDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DbQLSVDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="DbQLSVDataSet.xss">
       <DependentUpon>DbQLSVDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -126,10 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DbQLSV.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="DbQLSV_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <DependentUpon>DbQLSV.mdf</DependentUpon>
     </Content>
   </ItemGroup>

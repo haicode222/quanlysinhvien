@@ -3,35 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|c:\\users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|c:\\users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\dbqlsvdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
+      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\dbqlsvdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\DbQLSVDataSet.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|c:\\users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\FormLogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\FormMain.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|c:\\users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.SinhVien.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.LopQL.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\dbqlsvdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}",
-      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\dbqlsvdataset.xsd||{07AC752B-D2B0-4DCD-AD9C-237BF561A30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\dbqlsvdataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{288A1DF0-48C4-41C1-BF8E-73036FEE8193}|quanlysinhvien\\quanlysinhvien.csproj|solutionrelative:quanlysinhvien\\dbqlsvdataset.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.SinhVien.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,18 +44,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "dbo.SinhVien.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.SinhVien.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.SinhVien.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-12T16:09:58.776Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -60,31 +53,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.cs",
-              "RelativeDocumentMoniker": "quanlysinhvien\\FormMain.cs",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.cs*",
-              "RelativeToolTip": "quanlysinhvien\\FormMain.cs*",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAiwK8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:01:17.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "DbQLSVDataSet.xsd",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.xsd",
+              "DocumentMoniker": "C:\\Users\\admin\\Source\\Repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.xsd",
               "RelativeDocumentMoniker": "quanlysinhvien\\DbQLSVDataSet.xsd",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.xsd",
-              "RelativeToolTip": "quanlysinhvien\\DbQLSVDataSet.xsd",
+              "ToolTip": "C:\\Users\\admin\\Source\\Repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.xsd*",
+              "RelativeToolTip": "quanlysinhvien\\DbQLSVDataSet.xsd*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003579|",
-              "WhenOpened": "2026-03-12T15:35:18.601Z",
+              "WhenOpened": "2026-03-22T16:24:45.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "dbo.SinhVien [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.SinhVien.sql",
+              "ToolTip": "dbo.SinhVien [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-22T15:57:47.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.LopQL [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ADMIN_SOURCE_REPOS_QUANLYSINHVIEN_QUANLYSINHVIEN_DBQLSV.MDF/True/SqlTable/dbo.LopQL.sql",
+              "ToolTip": "dbo.LopQL [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-22T15:57:41.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "FormLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormLogin.cs",
               "RelativeDocumentMoniker": "quanlysinhvien\\FormLogin.cs",
@@ -96,33 +96,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormMain.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.Designer.cs",
               "RelativeDocumentMoniker": "quanlysinhvien\\FormMain.Designer.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.Designer.cs*",
               "RelativeToolTip": "quanlysinhvien\\FormMain.Designer.cs*",
-              "ViewState": "AgIAABYAAAAAAAAAAAAawBYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T10:42:32.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormLogin.cs",
               "RelativeDocumentMoniker": "quanlysinhvien\\FormLogin.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormLogin.cs",
               "RelativeToolTip": "quanlysinhvien\\FormLogin.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwDoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEYAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T15:21:48.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.cs",
+              "RelativeDocumentMoniker": "quanlysinhvien\\FormMain.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.cs*",
+              "RelativeToolTip": "quanlysinhvien\\FormMain.cs*",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwKkBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:01:17.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FormMain.cs [Design]",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\FormMain.cs",
               "RelativeDocumentMoniker": "quanlysinhvien\\FormMain.cs",
@@ -134,13 +147,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "DbQLSVDataSet.Designer.cs",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.Designer.cs",
               "RelativeDocumentMoniker": "quanlysinhvien\\DbQLSVDataSet.Designer.cs",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\quanlysinhvien\\quanlysinhvien\\DbQLSVDataSet.Designer.cs",
               "RelativeToolTip": "quanlysinhvien\\DbQLSVDataSet.Designer.cs",
-              "ViewState": "AgIAAI8FAAAAAAAAAAAgwJkFAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAI8FAAAAAAAAAAA1wJkFAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T15:36:32.299Z",
               "EditorCaption": ""
